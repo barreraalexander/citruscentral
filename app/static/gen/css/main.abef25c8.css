@@ -1,0 +1,6 @@
+html, body {
+  margin: 0; }
+
+#landing_section {
+  min-height: 100vh;
+  background-color: #ff9a00; }

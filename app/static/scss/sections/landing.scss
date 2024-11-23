@@ -1,0 +1,46 @@
+#landing_section{
+    min-height: 100vh;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-flow: row;
+    background-color: #000;
+
+
+
+    .banner_ctnr{
+        width: 40%;
+        
+        display: flex;
+        flex-flow: column;
+
+        justify-content: center;
+
+        z-index: 100;
+        
+        color: #fff;
+        align-items: center;
+
+        .digital_form_container{
+            margin-top: 4em;
+    
+        }
+    }
+
+
+    
+    #three_d_interactable_container{
+        width: 60%;
+ 
+    }
+
+    #landscape_three_d_container{
+        position: relative;
+        z-index: 97;
+        opacity: .8;
+
+
+    }
+
+
+}

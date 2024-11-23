@@ -1,0 +1,50 @@
+html, body {
+  margin: 0; }
+
+h1, h2, h3,
+h4, h5, h6,
+p, small, ul,
+li, a {
+  font-family: "New Amsterdam", sans-serif;
+  margin: 0; }
+
+.banner_text {
+  font-size: 8rem;
+  font-family: "Handjet", sans-serif;
+  font-weight: 400; }
+
+.small_banner_text {
+  font-size: 2rem;
+  font-weight: 400; }
+
+.form_group {
+  display: flex;
+  flex-flow: column;
+  gap: .25em; }
+
+.margin_top_sm {
+  margin-top: 2em; }
+
+#landing_section {
+  min-height: 100vh;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-flow: row;
+  background-color: #000; }
+  #landing_section .banner_ctnr {
+    width: 40%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    z-index: 100;
+    color: #fff;
+    align-items: center; }
+    #landing_section .banner_ctnr .digital_form_container {
+      margin-top: 4em; }
+  #landing_section #three_d_interactable_container {
+    width: 60%; }
+  #landing_section #landscape_three_d_container {
+    position: relative;
+    z-index: 97;
+    opacity: .8; }

@@ -1,0 +1,38 @@
+html, body {
+  margin: 0; }
+
+h1, h2, h3,
+h4, h5, h6,
+p, small, ul,
+li, a {
+  font-family: "New Amsterdam", sans-serif;
+  margin: 0; }
+
+.banner_text {
+  font-size: 8rem;
+  font-family: "Handjet", sans-serif;
+  font-weight: 400; }
+
+.small_banner_text {
+  font-size: 3rem;
+  font-family: "Handjet", sans-serif;
+  font-weight: 400; }
+
+#landing_section {
+  min-height: 100vh;
+  overflow: hidden;
+  position: relative; }
+  #landing_section .banner_ctnr {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    position: absolute;
+    justify-content: center;
+    background-color: #000;
+    z-index: 100;
+    color: #fff; }
+  #landing_section #three_d_container {
+    position: relative;
+    z-index: 97;
+    opacity: .8; }
